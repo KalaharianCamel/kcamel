@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-20T19:32:21.434Z",
+  "title": "Design System: Matthew Suwiryo portfolio",
+  "extensions": {
+    "colorMeta": {
+      "blue-top": {
+        "role": "primary",
+        "displayName": "Atmospheric Blue, Upper",
+        "tonalRamp": [
+          "oklch(15.00% 0.05909 262.06)",
+          "oklch(26.43% 0.05909 262.06)",
+          "oklch(37.86% 0.05909 262.06)",
+          "oklch(49.29% 0.05909 262.06)",
+          "oklch(60.71% 0.05909 262.06)",
+          "oklch(72.14% 0.05909 262.06)",
+          "oklch(83.57% 0.05909 262.06)",
+          "oklch(95.00% 0.05909 262.06)"
+        ]
+      },
+      "blue-bottom": {
+        "role": "primary",
+        "displayName": "Atmospheric Blue, Lower",
+        "tonalRamp": [
+          "oklch(15.00% 0.04032 267.88)",
+          "oklch(26.43% 0.04032 267.88)",
+          "oklch(37.86% 0.04032 267.88)",
+          "oklch(49.29% 0.04032 267.88)",
+          "oklch(60.71% 0.04032 267.88)",
+          "oklch(72.14% 0.04032 267.88)",
+          "oklch(83.57% 0.04032 267.88)",
+          "oklch(95.00% 0.04032 267.88)"
+        ]
+      },
+      "cell-blossom-pink": {
+        "role": "primary",
+        "displayName": "Cell Blossom Pink",
+        "tonalRamp": [
+          "oklch(15.00% 0.10015 7.83)",
+          "oklch(26.43% 0.10015 7.83)",
+          "oklch(37.86% 0.10015 7.83)",
+          "oklch(49.29% 0.10015 7.83)",
+          "oklch(60.71% 0.10015 7.83)",
+          "oklch(72.14% 0.10015 7.83)",
+          "oklch(83.57% 0.10015 7.83)",
+          "oklch(95.00% 0.10015 7.83)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Charcoal Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0)",
+          "oklch(26.43% 0.00000 0)",
+          "oklch(37.86% 0.00000 0)",
+          "oklch(49.29% 0.00000 0)",
+          "oklch(60.71% 0.00000 0)",
+          "oklch(72.14% 0.00000 0)",
+          "oklch(83.57% 0.00000 0)",
+          "oklch(95.00% 0.00000 0)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Pale Paper",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0)",
+          "oklch(26.43% 0.00000 0)",
+          "oklch(37.86% 0.00000 0)",
+          "oklch(49.29% 0.00000 0)",
+          "oklch(60.71% 0.00000 0)",
+          "oklch(72.14% 0.00000 0)",
+          "oklch(83.57% 0.00000 0)",
+          "oklch(95.00% 0.00000 0)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Paper Rule",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0)",
+          "oklch(26.43% 0.00000 0)",
+          "oklch(37.86% 0.00000 0)",
+          "oklch(49.29% 0.00000 0)",
+          "oklch(60.71% 0.00000 0)",
+          "oklch(72.14% 0.00000 0)",
+          "oklch(83.57% 0.00000 0)",
+          "oklch(95.00% 0.00000 0)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Charcoal Rule",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0)",
+          "oklch(26.43% 0.00000 0)",
+          "oklch(37.86% 0.00000 0)",
+          "oklch(49.29% 0.00000 0)",
+          "oklch(60.71% 0.00000 0)",
+          "oklch(72.14% 0.00000 0)",
+          "oklch(83.57% 0.00000 0)",
+          "oklch(95.00% 0.00000 0)"
+        ]
+      },
+      "black": {
+        "role": "neutral",
+        "displayName": "Black",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0)",
+          "oklch(26.43% 0.00000 0)",
+          "oklch(37.86% 0.00000 0)",
+          "oklch(49.29% 0.00000 0)",
+          "oklch(60.71% 0.00000 0)",
+          "oklch(72.14% 0.00000 0)",
+          "oklch(83.57% 0.00000 0)",
+          "oklch(95.00% 0.00000 0)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0)",
+          "oklch(26.43% 0.00000 0)",
+          "oklch(37.86% 0.00000 0)",
+          "oklch(49.29% 0.00000 0)",
+          "oklch(60.71% 0.00000 0)",
+          "oklch(72.14% 0.00000 0)",
+          "oklch(83.57% 0.00000 0)",
+          "oklch(95.00% 0.00000 0)"
+        ]
+      },
+      "selection-lavender": {
+        "role": "neutral",
+        "displayName": "Selection Lavender",
+        "tonalRamp": [
+          "oklch(15.00% 0.06272 301.89)",
+          "oklch(26.43% 0.06272 301.89)",
+          "oklch(37.86% 0.06272 301.89)",
+          "oklch(49.29% 0.06272 301.89)",
+          "oklch(60.71% 0.06272 301.89)",
+          "oklch(72.14% 0.06272 301.89)",
+          "oklch(83.57% 0.06272 301.89)",
+          "oklch(95.00% 0.06272 301.89)"
+        ]
+      },
+      "credit-ink": {
+        "role": "neutral",
+        "displayName": "Credit Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.02528 263.85)",
+          "oklch(26.43% 0.02528 263.85)",
+          "oklch(37.86% 0.02528 263.85)",
+          "oklch(49.29% 0.02528 263.85)",
+          "oklch(60.71% 0.02528 263.85)",
+          "oklch(72.14% 0.02528 263.85)",
+          "oklch(83.57% 0.02528 263.85)",
+          "oklch(95.00% 0.02528 263.85)"
+        ]
+      },
+      "notice-ink": {
+        "role": "neutral",
+        "displayName": "Notice Ink",
+        "tonalRamp": [
+          "oklch(15.00% 0.01270 285.91)",
+          "oklch(26.43% 0.01270 285.91)",
+          "oklch(37.86% 0.01270 285.91)",
+          "oklch(49.29% 0.01270 285.91)",
+          "oklch(60.71% 0.01270 285.91)",
+          "oklch(72.14% 0.01270 285.91)",
+          "oklch(83.57% 0.01270 285.91)",
+          "oklch(95.00% 0.01270 285.91)"
+        ]
+      },
+      "inline-code": {
+        "role": "neutral",
+        "displayName": "Inline Code",
+        "tonalRamp": [
+          "oklch(15.00% 0.00000 0)",
+          "oklch(26.43% 0.00000 0)",
+          "oklch(37.86% 0.00000 0)",
+          "oklch(49.29% 0.00000 0)",
+          "oklch(60.71% 0.00000 0)",
+          "oklch(72.14% 0.00000 0)",
+          "oklch(83.57% 0.00000 0)",
+          "oklch(95.00% 0.00000 0)"
+        ]
+      },
+      "code-background": {
+        "role": "neutral",
+        "displayName": "Code Background",
+        "tonalRamp": [
+          "oklch(15.00% 0.01567 264.30)",
+          "oklch(26.43% 0.01567 264.30)",
+          "oklch(37.86% 0.01567 264.30)",
+          "oklch(49.29% 0.01567 264.30)",
+          "oklch(60.71% 0.01567 264.30)",
+          "oklch(72.14% 0.01567 264.30)",
+          "oklch(83.57% 0.01567 264.30)",
+          "oklch(95.00% 0.01567 264.30)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Identity",
+        "purpose": "Single-line uppercase hero name."
+      },
+      "headline": {
+        "displayName": "Index headline",
+        "purpose": "Right-aligned uppercase page titles."
+      },
+      "title": {
+        "displayName": "Editorial title",
+        "purpose": "Post and project headings."
+      },
+      "body": {
+        "displayName": "Reading copy",
+        "purpose": "Wotfard editorial copy; --fs-m is 1rem below 768px and 1.125rem from 768px."
+      },
+      "label": {
+        "displayName": "Small editorial text",
+        "purpose": "Metadata; --fs-s is .8rem below 768px and .9rem from 768px."
+      },
+      "menu": {
+        "displayName": "Navigation label",
+        "purpose": "Underlined modal destinations; reduced to 2rem at or below 440px."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Inline examples and code blocks."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "menu-enter",
+        "value": "460ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Interruptible native-dialog curtain reveal; 120ms opacity under reduced motion."
+      },
+      {
+        "name": "menu-exit",
+        "value": "260ms cubic-bezier(.4,0,1,1)",
+        "purpose": "Close button, Escape, and route links share one closing promise; reduced motion uses 100ms opacity."
+      },
+      {
+        "name": "grid-expansion",
+        "value": "520ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Five matching fractional grid tracks interpolate across hover/focus states."
+      },
+      {
+        "name": "tagline-change",
+        "value": "220ms out / 460ms in",
+        "purpose": "Overlapping opacity, 8px movement, and bounded 2px blur; 1600ms input throttle."
+      },
+      {
+        "name": "physics",
+        "value": "120Hz / 8-step cap",
+        "purpose": "Fixed-step simulation, interpolated display, exponentially damped pointer, smooth outward pulse."
+      },
+      {
+        "name": "noise",
+        "value": "80ms minimum interval",
+        "purpose": "Low-frequency texture refresh while visible and the menu is open."
+      },
+      {
+        "name": "page-continuity",
+        "value": "160ms out / 300ms in",
+        "purpose": "Native same-origin View Transitions, with normal-navigation fallback."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "100–140ms opacity",
+        "purpose": "Static scene; no spatial effects, with meaningful tagline/menu feedback preserved."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "desktop",
+        "value": "768px"
+      },
+      {
+        "name": "small-phone-max",
+        "value": "440px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Menu Toggle",
+      "kind": "button",
+      "refersTo": "menu-toggle",
+      "description": "Transparent two-stroke control; inherits paper on the hero and ink on editorial pages.",
+      "html": "<button class=\"ds-menu-toggle\" aria-label=\"Open menu\"><span></span><span></span></button>",
+      "css": ".ds-menu-toggle{display:flex;flex-direction:column;justify-content:center;gap:8px;width:30px;height:44px;padding:0;border:0;background:transparent;color:var(--paper,#f0f0f0);cursor:pointer}.ds-menu-toggle span{width:30px;height:2px;background:currentColor;transition:transform 360ms cubic-bezier(.16,1,.3,1)}.ds-menu-toggle:hover span:first-child{transform:translateY(2px)}.ds-menu-toggle:hover span:last-child{transform:translateY(-2px)}.ds-menu-toggle:focus-visible{outline:2px solid currentColor;outline-offset:7px}@media(prefers-reduced-motion:reduce){.ds-menu-toggle span{transition:none}}"
+    },
+    {
+      "name": "Close Menu",
+      "kind": "button",
+      "refersTo": "close-menu",
+      "description": "Transparent cross control for the native full-screen modal.",
+      "html": "<button class=\"ds-close-menu\" aria-label=\"Close menu\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"m5 5 14 14M19 5 5 19\"/></svg></button>",
+      "css": ".ds-close-menu{width:40px;height:44px;display:grid;place-items:center;color:var(--paper,#f0f0f0);border:0;background:transparent;padding:0;cursor:pointer;transition:transform 320ms cubic-bezier(.16,1,.3,1)}.ds-close-menu svg{width:34px;height:34px}.ds-close-menu:hover{transform:rotate(90deg)}.ds-close-menu:focus-visible{outline:2px solid currentColor;outline-offset:7px}@media(prefers-reduced-motion:reduce){.ds-close-menu{transition:none}}"
+    },
+    {
+      "name": "Navigation Tile",
+      "kind": "nav",
+      "refersTo": "navigation-tile",
+      "description": "One square-edged region of the desktop expanding grid; stacked on mobile.",
+      "html": "<a class=\"ds-nav-tile\" href=\"/projects\">Experiments</a>",
+      "css": ".ds-nav-tile{display:block;padding:45px;min-height:150px;border:1px solid var(--clr-dark-border,rgb(45,45,45));border-width:0 1px 1px 0;background:var(--ink,#232323);color:var(--paper,#f0f0f0);font:600 2.5rem/1.5 Graphik,sans-serif;text-decoration:underline;text-underline-offset:3px;transition:background-color 280ms ease}.ds-nav-tile:hover{background:var(--clr-black,#000)}.ds-nav-tile:focus-visible{outline:2px solid currentColor;outline-offset:7px}@media(max-width:440px){.ds-nav-tile{padding:30px;font-size:2rem;min-height:130px}}@media(prefers-reduced-motion:reduce){.ds-nav-tile{transition:none}}"
+    },
+    {
+      "name": "Technology Filter",
+      "kind": "nav",
+      "refersTo": "filter-link",
+      "description": "Dormant reference specimen for future content. Editorial index destination with numerical prefix and desktop underline animation.",
+      "html": "<div class=\"ds-filter-row\"><span class=\"ds-filter-order\">/00</span><a class=\"ds-filter\" href=\"/projects/css\">CSS<span class=\"ds-filter-line\"></span></a></div>",
+      "css": ".ds-filter-row{font:400 var(--fs-m,1rem)/1.5 Wotfard,serif;margin-bottom:.5ch}.ds-filter-order{display:none;font-size:var(--fs-s,.8rem)}.ds-filter{display:inline-block;overflow:hidden;color:var(--clr-dark,#232323);text-decoration:none}.ds-filter-line{display:none;height:1.5px;width:100%;background:var(--clr-dark,#232323)}.ds-filter:focus-visible{outline:2px solid currentColor;outline-offset:7px}@media(min-width:768px){.ds-filter-row{display:grid;grid-template-columns:1fr 2fr;align-items:end;justify-items:start}.ds-filter-order,.ds-filter-line{display:block}.ds-filter:hover .ds-filter-line{animation:ds-slide-right-twice .4s linear}}@keyframes ds-slide-right-twice{0%{transform:translateX(0)}50%{transform:translateX(100%)}51%{transform:translateX(-100%)}100%{transform:translateX(0)}}@media(prefers-reduced-motion:reduce){.ds-filter:hover .ds-filter-line{animation:none}}"
+    },
+    {
+      "name": "Topic Tag",
+      "kind": "chip",
+      "refersTo": "topic-tag",
+      "description": "Dormant reference specimen for future content. Static square metadata tag from the writing list.",
+      "html": "<span class=\"ds-topic-tag\">CSS</span>",
+      "css": ".ds-topic-tag{display:inline-block;padding:.25ch 1ch;border-radius:0;background:var(--clr-dark,#232323);color:var(--clr-light,rgb(240,240,240));font:400 var(--fs-s,.8rem)/1.5 Wotfard,serif}"
+    },
+    {
+      "name": "Writing Entry",
+      "kind": "card",
+      "refersTo": "writing-card",
+      "description": "Dormant reference specimen for future content. Flat editorial list entry with dashed title rule, reading copy, tags and a desktop hover arrow.",
+      "html": "<article class=\"ds-writing-card\"><a class=\"ds-writing-link\" href=\"/posts\"><h3 class=\"ds-writing-title\">Thoughts and notes</h3><span class=\"ds-writing-arrow\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" aria-hidden=\"true\"><path d=\"M4 12h16m-6-6 6 6-6 6\"/></svg></span><p class=\"ds-writing-description\">Notes on things I learn.</p><span class=\"ds-writing-tag\">CSS</span></a></article>",
+      "css": ".ds-writing-card{position:relative;background:var(--clr-light,rgb(240,240,240));color:var(--clr-dark,#232323);font:400 var(--fs-m,1rem)/1.5 Wotfard,serif}.ds-writing-link{display:block;color:inherit;text-decoration:none}.ds-writing-title{margin:0;padding-bottom:1ch;border-bottom:1px dashed var(--clr-dark-border,rgb(45,45,45));font:600 1.5rem/1.5 Graphik,sans-serif}.ds-writing-description{margin:2ch 0 1.5ch}.ds-writing-tag{display:inline-block;padding:.25ch 1ch;background:var(--clr-dark,#232323);color:var(--clr-light,rgb(240,240,240));font-size:var(--fs-s,.8rem)}.ds-writing-arrow{display:none}.ds-writing-link:focus-visible{outline:2px solid currentColor;outline-offset:7px}@media(min-width:768px){.ds-writing-title{line-height:1}.ds-writing-arrow{display:block;position:absolute;top:-20px;right:-20px;padding:20px;border-radius:50%;background:var(--bg-gradient-blue,linear-gradient(#788cb0,#aeb9d4));transform:scale(0);transition:transform .4s ease-in-out}.ds-writing-arrow svg{width:20px;color:var(--clr-light,rgb(240,240,240));transform:rotate(-45deg)}.ds-writing-link:hover .ds-writing-arrow{transform:scale(1)}}@media(prefers-reduced-motion:reduce){.ds-writing-arrow{transition:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Reference-led portfolio recreation",
+    "overview": "Matthew Suwiryo's portfolio retains the reference blue atmosphere, soft blossom-pink biconcave cells, Graphik identity, and expanding charcoal menu. Confirmed content now describes a senior at DVHS, class of 2027, pursuing biology/pre-med with the goal of becoming a doctor. Contact links come from src/profile.js; custom tagline messages are preserved. Experiments and Writing are coming-soon pages, including legacy aliases.",
+    "keyCharacteristics": [
+      "Soft blossom-pink biological cells over a muted blue gradient.",
+      "Fixed-step fluid motion with interpolated display frames.",
+      "Overlapping custom tagline messages.",
+      "An expanding native dialog with animated entry and exit.",
+      "Matthew’s confirmed biography/contact information and honest coming-soon pages."
+    ],
+    "rules": [
+      {
+        "name": "The Reference Palette Rule",
+        "body": "Preserve the established blue/pink and paper/charcoal relationships when extending this portfolio.",
+        "section": "colors"
+      },
+      {
+        "name": "The Two Voices Rule",
+        "body": "Keep Graphik for identity and navigation and Wotfard for editorial reading copy.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Editorial Rule",
+        "body": "Keep editorial lists and reading surfaces free of invented elevation shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do preserve the reference composition, local typography, blue gradient, soft blossom pink cell material, and restrained editorial system.",
+      "Do use real biconcave meshes for the hero and preserve reduced-motion handling.",
+      "Do retain visible keyboard focus and the native dialog's dismissal and focus-return behavior.",
+      "Do keep the original author's temporary content and attribution until the user supplies replacements.",
+      "Do verify new routes at narrow and desktop widths and keep filter destinations functional."
+    ],
+    "donts": [
+      "Don't turn the biology adaptation into a red, clinical, or unrelated visual identity.",
+      "Don't introduce elevated rounded cards into the flat editorial lists.",
+      "Don't replace retained biography, writing, project, portrait, or contact details with invented personal facts.",
+      "Don't treat the inherited hero contrast tradeoff as a general reading-surface rule.",
+      "Don't claim full device, screen-reader, or third-party service verification from the existing screenshot review."
+    ]
+  }
+}

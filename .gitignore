@@ -1,0 +1,6 @@
+node_modules/
+dist/
+reference/
+.impeccable/review/
+.playwright-cli/
+output/playwright/

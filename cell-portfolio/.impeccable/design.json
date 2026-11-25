@@ -1,0 +1,649 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T02:26:23.885Z",
+  "title": "Design System: Cell portfolio",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Charcoal ground",
+        "tonalRamp": [
+          "oklch(15% 0.00407 128.66)",
+          "oklch(26.43% 0.00407 128.66)",
+          "oklch(37.86% 0.00407 128.66)",
+          "oklch(49.29% 0.00407 128.66)",
+          "oklch(60.71% 0.00407 128.66)",
+          "oklch(72.14% 0.00407 128.66)",
+          "oklch(83.57% 0.00407 128.66)",
+          "oklch(95% 0.00407 128.66)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Off-white paper",
+        "tonalRamp": [
+          "oklch(15% 0.00676 97.36)",
+          "oklch(26.43% 0.00676 97.36)",
+          "oklch(37.86% 0.00676 97.36)",
+          "oklch(49.29% 0.00676 97.36)",
+          "oklch(60.71% 0.00676 97.36)",
+          "oklch(72.14% 0.00676 97.36)",
+          "oklch(83.57% 0.00676 97.36)",
+          "oklch(95% 0.00676 97.36)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted mineral",
+        "tonalRamp": [
+          "oklch(15% 0.01121 112.43)",
+          "oklch(26.43% 0.01121 112.43)",
+          "oklch(37.86% 0.01121 112.43)",
+          "oklch(49.29% 0.01121 112.43)",
+          "oklch(60.71% 0.01121 112.43)",
+          "oklch(72.14% 0.01121 112.43)",
+          "oklch(83.57% 0.01121 112.43)",
+          "oklch(95% 0.01121 112.43)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Structural olive gray",
+        "tonalRamp": [
+          "oklch(15% 0.01137 106.89)",
+          "oklch(26.43% 0.01137 106.89)",
+          "oklch(37.86% 0.01137 106.89)",
+          "oklch(49.29% 0.01137 106.89)",
+          "oklch(60.71% 0.01137 106.89)",
+          "oklch(72.14% 0.01137 106.89)",
+          "oklch(83.57% 0.01137 106.89)",
+          "oklch(95% 0.01137 106.89)"
+        ]
+      },
+      "sand": {
+        "role": "primary",
+        "displayName": "Sand orange",
+        "tonalRamp": [
+          "oklch(15% 0.13717 53.85)",
+          "oklch(26.43% 0.13717 53.85)",
+          "oklch(37.86% 0.13717 53.85)",
+          "oklch(49.29% 0.13717 53.85)",
+          "oklch(60.71% 0.13717 53.85)",
+          "oklch(72.14% 0.13717 53.85)",
+          "oklch(83.57% 0.13717 53.85)",
+          "oklch(95% 0.13717 53.85)"
+        ]
+      },
+      "copper": {
+        "role": "primary",
+        "displayName": "Light copper",
+        "tonalRamp": [
+          "oklch(15% 0.10143 58.99)",
+          "oklch(26.43% 0.10143 58.99)",
+          "oklch(37.86% 0.10143 58.99)",
+          "oklch(49.29% 0.10143 58.99)",
+          "oklch(60.71% 0.10143 58.99)",
+          "oklch(72.14% 0.10143 58.99)",
+          "oklch(83.57% 0.10143 58.99)",
+          "oklch(95% 0.10143 58.99)"
+        ]
+      },
+      "panel": {
+        "role": "neutral",
+        "displayName": "Reading panel",
+        "tonalRamp": [
+          "oklch(15% 0.01098 114.85)",
+          "oklch(26.43% 0.01098 114.85)",
+          "oklch(37.86% 0.01098 114.85)",
+          "oklch(49.29% 0.01098 114.85)",
+          "oklch(60.71% 0.01098 114.85)",
+          "oklch(72.14% 0.01098 114.85)",
+          "oklch(83.57% 0.01098 114.85)",
+          "oklch(95% 0.01098 114.85)"
+        ]
+      },
+      "sand-hover": {
+        "role": "primary",
+        "displayName": "Deep sand hover",
+        "tonalRamp": [
+          "oklch(15% 0.12906 51.44)",
+          "oklch(26.43% 0.12906 51.44)",
+          "oklch(37.86% 0.12906 51.44)",
+          "oklch(49.29% 0.12906 51.44)",
+          "oklch(60.71% 0.12906 51.44)",
+          "oklch(72.14% 0.12906 51.44)",
+          "oklch(83.57% 0.12906 51.44)",
+          "oklch(95% 0.12906 51.44)"
+        ]
+      },
+      "action-ink": {
+        "role": "neutral",
+        "displayName": "White action ink",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "action-fill": {
+        "role": "primary",
+        "displayName": "Accessible sand action fill",
+        "tonalRamp": [
+          "oklch(15% 0.13274 51.56)",
+          "oklch(26.43% 0.13274 51.56)",
+          "oklch(37.86% 0.13274 51.56)",
+          "oklch(49.29% 0.13274 51.56)",
+          "oklch(60.71% 0.13274 51.56)",
+          "oklch(72.14% 0.13274 51.56)",
+          "oklch(83.57% 0.13274 51.56)",
+          "oklch(95% 0.13274 51.56)"
+        ]
+      },
+      "membrane-surface": {
+        "role": "primary",
+        "displayName": "Static membrane surface",
+        "tonalRamp": [
+          "oklch(15.00% 0.08169 50.24)",
+          "oklch(26.43% 0.08169 50.24)",
+          "oklch(37.86% 0.08169 50.24)",
+          "oklch(49.29% 0.08169 50.24)",
+          "oklch(60.71% 0.08169 50.24)",
+          "oklch(72.14% 0.08169 50.24)",
+          "oklch(83.57% 0.08169 50.24)",
+          "oklch(95.00% 0.08169 50.24)"
+        ]
+      },
+      "membrane-edge": {
+        "role": "primary",
+        "displayName": "Static membrane edge",
+        "tonalRamp": [
+          "oklch(15.00% 0.09623 55.19)",
+          "oklch(26.43% 0.09623 55.19)",
+          "oklch(37.86% 0.09623 55.19)",
+          "oklch(49.29% 0.09623 55.19)",
+          "oklch(60.71% 0.09623 55.19)",
+          "oklch(72.14% 0.09623 55.19)",
+          "oklch(83.57% 0.09623 55.19)",
+          "oklch(95.00% 0.09623 55.19)"
+        ]
+      },
+      "membrane-facet": {
+        "role": "primary",
+        "displayName": "Faceted copper shell",
+        "tonalRamp": [
+          "oklch(15.00% 0.11727 53.52)",
+          "oklch(26.43% 0.11727 53.52)",
+          "oklch(37.86% 0.11727 53.52)",
+          "oklch(49.29% 0.11727 53.52)",
+          "oklch(60.71% 0.11727 53.52)",
+          "oklch(72.14% 0.11727 53.52)",
+          "oklch(83.57% 0.11727 53.52)",
+          "oklch(95.00% 0.11727 53.52)"
+        ]
+      },
+      "electron-ground": {
+        "role": "neutral",
+        "displayName": "Electron imaging ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.00670 160.06)",
+          "oklch(26.43% 0.00670 160.06)",
+          "oklch(37.86% 0.00670 160.06)",
+          "oklch(49.29% 0.00670 160.06)",
+          "oklch(60.71% 0.00670 160.06)",
+          "oklch(72.14% 0.00670 160.06)",
+          "oklch(83.57% 0.00670 160.06)",
+          "oklch(95.00% 0.00670 160.06)"
+        ]
+      },
+      "electron-paper": {
+        "role": "neutral",
+        "displayName": "Electron imaging text",
+        "tonalRamp": [
+          "oklch(15.00% 0.02994 167.18)",
+          "oklch(26.43% 0.02994 167.18)",
+          "oklch(37.86% 0.02994 167.18)",
+          "oklch(49.29% 0.02994 167.18)",
+          "oklch(60.71% 0.02994 167.18)",
+          "oklch(72.14% 0.02994 167.18)",
+          "oklch(83.57% 0.02994 167.18)",
+          "oklch(95.00% 0.02994 167.18)"
+        ]
+      },
+      "electron-muted": {
+        "role": "neutral",
+        "displayName": "Electron imaging secondary text",
+        "tonalRamp": [
+          "oklch(15.00% 0.02667 163.45)",
+          "oklch(26.43% 0.02667 163.45)",
+          "oklch(37.86% 0.02667 163.45)",
+          "oklch(49.29% 0.02667 163.45)",
+          "oklch(60.71% 0.02667 163.45)",
+          "oklch(72.14% 0.02667 163.45)",
+          "oklch(83.57% 0.02667 163.45)",
+          "oklch(95.00% 0.02667 163.45)"
+        ]
+      },
+      "electron-line": {
+        "role": "neutral",
+        "displayName": "Electron imaging separator",
+        "tonalRamp": [
+          "oklch(15.00% 0.02460 157.39)",
+          "oklch(26.43% 0.02460 157.39)",
+          "oklch(37.86% 0.02460 157.39)",
+          "oklch(49.29% 0.02460 157.39)",
+          "oklch(60.71% 0.02460 157.39)",
+          "oklch(72.14% 0.02460 157.39)",
+          "oklch(83.57% 0.02460 157.39)",
+          "oklch(95.00% 0.02460 157.39)"
+        ]
+      },
+      "electron-signal": {
+        "role": "primary",
+        "displayName": "Electron imaging green signal",
+        "tonalRamp": [
+          "oklch(15.00% 0.06523 169.43)",
+          "oklch(26.43% 0.06523 169.43)",
+          "oklch(37.86% 0.06523 169.43)",
+          "oklch(49.29% 0.06523 169.43)",
+          "oklch(60.71% 0.06523 169.43)",
+          "oklch(72.14% 0.06523 169.43)",
+          "oklch(83.57% 0.06523 169.43)",
+          "oklch(95.00% 0.06523 169.43)"
+        ]
+      },
+      "ruler-ground": {
+        "role": "neutral",
+        "displayName": "Navigation capsule ground",
+        "tonalRamp": [
+          "oklch(15.00% 0.00381 84.58)",
+          "oklch(26.43% 0.00381 84.58)",
+          "oklch(37.86% 0.00381 84.58)",
+          "oklch(49.29% 0.00381 84.58)",
+          "oklch(60.71% 0.00381 84.58)",
+          "oklch(72.14% 0.00381 84.58)",
+          "oklch(83.57% 0.00381 84.58)",
+          "oklch(95.00% 0.00381 84.58)"
+        ]
+      },
+      "ruler-tick": {
+        "role": "neutral",
+        "displayName": "Quiet navigation ticks",
+        "tonalRamp": [
+          "oklch(15.00% 0.01367 91.59)",
+          "oklch(26.43% 0.01367 91.59)",
+          "oklch(37.86% 0.01367 91.59)",
+          "oklch(49.29% 0.01367 91.59)",
+          "oklch(60.71% 0.01367 91.59)",
+          "oklch(72.14% 0.01367 91.59)",
+          "oklch(83.57% 0.01367 91.59)",
+          "oklch(95.00% 0.01367 91.59)"
+        ]
+      },
+      "ruler-tick-active": {
+        "role": "neutral",
+        "displayName": "Active navigation ticks",
+        "tonalRamp": [
+          "oklch(15.00% 0.01886 89.38)",
+          "oklch(26.43% 0.01886 89.38)",
+          "oklch(37.86% 0.01886 89.38)",
+          "oklch(49.29% 0.01886 89.38)",
+          "oklch(60.71% 0.01886 89.38)",
+          "oklch(72.14% 0.01886 89.38)",
+          "oklch(83.57% 0.01886 89.38)",
+          "oklch(95.00% 0.01886 89.38)"
+        ]
+      },
+      "ruler-marker": {
+        "role": "primary",
+        "displayName": "Coral category marker",
+        "tonalRamp": [
+          "oklch(15.00% 0.18314 27.67)",
+          "oklch(26.43% 0.18314 27.67)",
+          "oklch(37.86% 0.18314 27.67)",
+          "oklch(49.29% 0.18314 27.67)",
+          "oklch(60.71% 0.18314 27.67)",
+          "oklch(72.14% 0.18314 27.67)",
+          "oklch(83.57% 0.18314 27.67)",
+          "oklch(95.00% 0.18314 27.67)"
+        ]
+      },
+      "ruler-focus": {
+        "role": "primary",
+        "displayName": "Pale coral navigation focus",
+        "tonalRamp": [
+          "oklch(15.00% 0.08957 28.41)",
+          "oklch(26.43% 0.08957 28.41)",
+          "oklch(37.86% 0.08957 28.41)",
+          "oklch(49.29% 0.08957 28.41)",
+          "oklch(60.71% 0.08957 28.41)",
+          "oklch(72.14% 0.08957 28.41)",
+          "oklch(83.57% 0.08957 28.41)",
+          "oklch(95.00% 0.08957 28.41)"
+        ]
+      },
+      "electron-panel": {
+        "role": "neutral",
+        "displayName": "Electron project panel",
+        "tonalRamp": [
+          "oklch(15.00% 0.00584 153.77)",
+          "oklch(26.43% 0.00584 153.77)",
+          "oklch(37.86% 0.00584 153.77)",
+          "oklch(49.29% 0.00584 153.77)",
+          "oklch(60.71% 0.00584 153.77)",
+          "oklch(72.14% 0.00584 153.77)",
+          "oklch(83.57% 0.00584 153.77)",
+          "oklch(95.00% 0.00584 153.77)"
+        ]
+      },
+      "electron-field-line": {
+        "role": "neutral",
+        "displayName": "Electron placeholder border",
+        "tonalRamp": [
+          "oklch(15.00% 0.03292 157.36)",
+          "oklch(26.43% 0.03292 157.36)",
+          "oklch(37.86% 0.03292 157.36)",
+          "oklch(49.29% 0.03292 157.36)",
+          "oklch(60.71% 0.03292 157.36)",
+          "oklch(72.14% 0.03292 157.36)",
+          "oklch(83.57% 0.03292 157.36)",
+          "oklch(95.00% 0.03292 157.36)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Name",
+        "purpose": "Large introduction name; mobile uses a fixed 68px size."
+      },
+      "headline": {
+        "displayName": "Chapter heading",
+        "purpose": "Main chapter headings; normally 42px on tablet and mobile. Mobile Contact uses clamp(32px, 8.8vw, 42px) to keep its invitation on one line."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Default small heading; entry and panel headings have contextual overrides. The panel title uses line-height 1.12 and wraps long words."
+      },
+      "body": {
+        "displayName": "Reading text",
+        "purpose": "HTML prose, supplemented by contextual introduction and summary sizes; detail-panel paragraphs stop at 65ch."
+      },
+      "label": {
+        "displayName": "Interface label",
+        "purpose": "Action text; smaller metadata steps support the specimen and 11px tooltips name the navigation segments."
+      }
+    },
+    "shadows": [
+      {
+        "name": "project-panel",
+        "value": "-24px 0 80px #0005",
+        "purpose": "Ambient lateral separation for the modal reading panel."
+      }
+    ],
+    "motion": [
+      {
+        "name": "control-transition",
+        "value": ".2s",
+        "purpose": "Color changes on detail controls; background change on the primary link."
+      },
+      {
+        "name": "canvas-reveal",
+        "value": "filter var(--theme-duration) ease-in-out, opacity .6s",
+        "purpose": "Reveal initialized WebGL through opacity while easing its monochrome filter with the shared palette duration."
+      },
+      {
+        "name": "diagram-reveal",
+        "value": "filter var(--theme-duration) ease-in-out, opacity .6s",
+        "purpose": "Ease the static diagram filter with the palette theme and its opacity reveal; reduced-motion rules disable transitions."
+      },
+      {
+        "name": "scene-damping",
+        "value": "1 - Math.exp(-dt * 5)",
+        "purpose": "Read one authored pose directly from the eased native-scroll track for both shell and interior assembly. Retain frame-rate-aware damping on root transforms, specimen scale, and material emphasis, plus ambient drift during holds; do not separately lag the pose or organelle positions."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "prefers-reduced-motion: reduce",
+        "purpose": "Disable CSS transitions and scroll easing while applying half-distance inputs immediately; skip WebGL and preserve closed, split, interior, and microscope views as authored inline SVG, including the electron-imaging palette switch."
+      },
+      {
+        "name": "scene-pause",
+        "value": "paused || document.hidden",
+        "purpose": "Suspend scene updates while the modal is open or the document is hidden; pause the page scroll controller while the modal is open."
+      },
+      {
+        "name": "scroll-choreography",
+        "value": "cushion((position - a[0]) / (b[0] - a[0]))",
+        "purpose": "C2 quintic interpolation gives zero velocity and acceleration at every authored hold. Reconstruction spans tracks 2.48–2.92, 3.78–4.12, 5.54–5.92, and 6.64–7; closed holds span 2.92–3, 4.12–4.20, 5.92–6.02, and Contact 7–8. Project 3 opens over 4.20–4.88 and holds to 5.04; Academics opens over 6.02–6.56 and holds to 6.64."
+      },
+      {
+        "name": "annotation-transition",
+        "value": "opacity .25s",
+        "purpose": "Annotation opacity follows membrane opening and is suppressed during the held cross-section; labels and leader lines remain hidden in the outside view."
+      },
+      {
+        "name": "mobile-camera-soft-bound",
+        "value": "5.4 + .55 * Math.log1p(Math.exp((distance * 1.12 - 5.4) / .55))",
+        "purpose": "Frame the specimen in the upper phone canvas with a smooth lower camera-distance bound, preserving derivative continuity at the framing threshold. Blend toward distance * .7 during microscope magnification; retain .6 world units and the split-aspect fit distance. Desktop camera distance is unchanged."
+      },
+      {
+        "name": "document-scroll-response",
+        "value": "target + (current - target) * Math.exp(-seconds / .30)",
+        "purpose": "Ease the real document position toward the target; copy, scene, active category, and marker derive from the same window.scrollY. Anchor destinations remain exact, native controls are excluded, and reduced motion bypasses easing."
+      },
+      {
+        "name": "scroll-input-distance",
+        "value": ".5",
+        "purpose": "Multiply wheel, trackpad, vertical touch, and incremental keyboard distances by one half. Home, End, and anchors retain exact destinations."
+      },
+      {
+        "name": "physical-membrane-opening",
+        "value": "getMembranePose(track)",
+        "purpose": "Two clipped triangle half-shells translate and rotate independently, holding their solid anatomical cut faces across tracks .95–1.30, then moving farther apart and fading for camera entry at 1.64."
+      },
+      {
+        "name": "microscope-docking",
+        "value": "getMicroscopeState(track)",
+        "purpose": "Introduce the microscope and glass Petri dish over tracks 2.90–3.26, dock the cell over 2.96–3.26, reduce it to 5.5% linear scale inside the dish, and hold through 3.36. Withdraw microscope presence over 3.82–4.14."
+      },
+      {
+        "name": "electron-imaging-switch",
+        "value": "track >= 3.36 && track < 4",
+        "purpose": "The electron-imaging state remains active at 3.36 <= track < 4. Page colors, panels, specimen filters, and viewfinder opacity ease into imaging over .85s and return to warmth for Project 3 over 1.1s. CSS reversals continue from current values; reduced motion is immediate. The navigation capsule retains its stable charcoal and coral palette."
+      },
+      {
+        "name": "chapter-tooltip",
+        "value": "opacity .12s, transform .12s",
+        "purpose": "Show each accessible category name above its segment on hover or keyboard focus; reduced motion disables the transition."
+      },
+      {
+        "name": "category-marker-mapping",
+        "value": "bounds.left + position.local * (bounds.width - 4)",
+        "purpose": "Map progress through each actual category interval into its equal visual segment using cached tick-span bounds, including the 4px mobile inset; the scene and active category remain tied to actual document scroll."
+      },
+      {
+        "name": "continuous-specimen-framing",
+        "value": "getFramingPose(track, mobile)",
+        "purpose": "Interpolate normalized screen x/y and closing scale across the entire scroll journey while the full-viewport projection bounds stay fixed; move the same specimen continuously between reading compositions in either scroll direction. Academics places warm ribosomes right of left-side copy before moving toward centered Contact."
+      },
+      {
+        "name": "microscope-magnification",
+        "value": "scope.magnification",
+        "purpose": "Approach the tiny docked cell over 3.36–3.70, hold through 3.78, and retract over 3.78–4.12. Use reciprocal camera interpolation for even perspective growth, move the camera down by 1.24 world units times the mobile units multiplier, and fade instrument and dish opacity with 1 - scope.magnification."
+      },
+      {
+        "name": "palette-transition",
+        "value": ".85s entry / 1.1s optical return, ease-in-out; 0s reduced motion",
+        "purpose": "Interpolate registered inherited --ground, --paper, --muted, --line, --sand, --copper, and --panel colors on body so all reading surfaces and text share one theme fade; specimen filters and viewfinder opacity inherit the active body duration. Optical return sets 1.1s, electron entry uses .85s, and reduced motion disables transitions. Scrollbar colors retain the root .85s duration."
+      },
+      {
+        "name": "contained-closure",
+        "value": "pose.shell / pose.assembly",
+        "purpose": "Phase raw scroll progress once per physical stage: opening shell first 20%, interior remaining 80%; closing interior first 80%, shell final 20%. Spread, isolation, splitting, and compact scale follow the interior phase directly, without another packing ease or multiplier. All organelles remain compact inside the membrane whenever the enclosing shell is visible."
+      },
+      {
+        "name": "contact-framing",
+        "value": "desktop y .27 / scale .52; mobile y .31 / scale .82",
+        "purpose": "Cushion the final position and scale over tracks 6.64–7, framing the entire closed cell above Contact copy. Desktop copy sticks at 58svh with max(96px,14svh) bottom clearance. Phone Contact uses content-defined height (min-height:0), copy starts at 58svh with 120px bottom margin, the heading uses clamp(32px,8.8vw,42px), and the preceding masking fade is removed."
+      },
+      {
+        "name": "panel-close-transition",
+        "value": "color .18s, border-color .18s",
+        "purpose": "Ease hover feedback on the circular 44px close target; reduced motion disables the transition."
+      },
+      {
+        "name": "quintic-cushion",
+        "value": "t*t*t*(t*(t*6-15)+10)",
+        "purpose": "Apply one C2 ease to raw progress for each physical stage. Preserve zero velocity and acceleration at holds without nesting already-eased openness inside a second packing ease."
+      },
+      {
+        "name": "perspective-camera-interpolation",
+        "value": "1 / ((1 - t) / a + t / b)",
+        "purpose": "Interpolate perspective scale via reciprocal camera distance. After initial entry at 1.64, proceed directly to the first project study at 2.24 without an intermediate camera rebound."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "mobile-max",
+        "value": "700px"
+      },
+      {
+        "name": "tablet-min",
+        "value": "701px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "1000px"
+      },
+      {
+        "name": "small-phone-max",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary link",
+      "kind": "button",
+      "refersTo": "primary-link",
+      "description": "Sand action leading to the project chapter.",
+      "html": "<a class=\"ds-primary-link\" href=\"#projects\">Explore projects <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></a>",
+      "css": ".ds-primary-link{display:inline-flex;align-items:center;justify-content:space-between;gap:36px;padding:14px 19px;background:#b15b1c;color:#fff;font-family:var(--body,Wotfard),Arial,sans-serif;font-size:13px;line-height:1.6;text-decoration:none;border:1px solid transparent;border-radius:3px;transition:background .2s}.ds-primary-link svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.3}.ds-primary-link:hover{background:#a95619}.ds-primary-link:focus-visible{outline:2px solid var(--copper,#e0a06d);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-primary-link{transition:none}}"
+    },
+    {
+      "name": "Project detail button",
+      "kind": "button",
+      "refersTo": "detail-button",
+      "description": "Underlined action with a 44px minimum target height and a unique accessible project name, opening the controlled reading panel.",
+      "html": "<button class=\"ds-detail-button\" type=\"button\" aria-haspopup=\"dialog\" aria-controls=\"project-dialog\" aria-label=\"Explore project: [Project title]\">Explore project <svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M4 12h15m-6-6 6 6-6 6\"/></svg></button>",
+      "css": ".ds-detail-button{display:flex;align-items:center;gap:38px;min-height:44px;border:0;border-bottom:1px solid var(--sand,#bf6721);padding:9px 0;background:none;color:var(--paper,#ecebe6);font-family:var(--body,Wotfard),Arial,sans-serif;font-size:13px;line-height:1.6;cursor:pointer;transition:color .2s}.ds-detail-button svg{width:16px;height:18px;fill:none;stroke:currentColor;stroke-width:1.3}.ds-detail-button:hover{color:var(--copper,#e0a06d)}.ds-detail-button:focus-visible{outline:2px solid var(--copper,#e0a06d);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-detail-button{transition:none}}"
+    },
+    {
+      "name": "Panel close button",
+      "kind": "button",
+      "refersTo": "icon-button",
+      "description": "Circular 44px outlined close action for the project panel.",
+      "html": "<button class=\"ds-icon-button\" type=\"button\" aria-label=\"Close project details\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"m6 6 12 12M18 6 6 18\"/></svg></button>",
+      "css": ".ds-icon-button{width:44px;height:44px;border:1px solid var(--line,#4c4c45);border-radius:50%;background:transparent;color:var(--paper,#ecebe6);display:grid;place-items:center;cursor:pointer;transition:color .18s,border-color .18s}.ds-icon-button svg{width:20px;fill:none;stroke:currentColor;stroke-width:1.4}.ds-icon-button:hover{border-color:var(--copper,#e0a06d);color:var(--copper,#e0a06d)}.ds-icon-button:focus-visible{outline:2px solid var(--copper,#e0a06d);outline-offset:6px}@media(prefers-reduced-motion:reduce){.ds-icon-button{transition:none}}"
+    },
+    {
+      "name": "Journey ruler",
+      "kind": "nav",
+      "description": "Sole chapter navigation, placed at the lower right on desktop: five equal, accessibly named tick groups with clear gaps inside a charcoal capsule. One coral marker maps local progress through actual document category intervals. Names appear on hover or keyboard focus; the preview marker is illustrative. Mobile tick groups inset within the full-size hit targets to preserve visible gaps; at 360px and below, 10px horizontal padding and 8px target gaps retain 44px targets with 16px visible tick gaps.",
+      "html": "<nav class=\"ds-track\" aria-label=\"Portfolio chapters\"><span class=\"ds-marker\" aria-hidden=\"true\"></span><a class=\"ds-stop\" href=\"#intro\" aria-label=\"Intro\"></a><a class=\"ds-stop\" href=\"#projects\" aria-label=\"Projects\" aria-current=\"location\"></a><a class=\"ds-stop\" href=\"#experience\" aria-label=\"Experience\"></a><a class=\"ds-stop\" href=\"#academics\" aria-label=\"Academics\"></a><a class=\"ds-stop\" href=\"#contact\" aria-label=\"Contact\"></a></nav>",
+      "css": ".ds-track{position:relative;display:grid;flex:none;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px;width:clamp(360px,27vw,520px);height:60px;padding:8px 18px;border-radius:20px;background:#302f2d;font-family:var(--body,Wotfard),Arial,sans-serif;box-sizing:border-box}.ds-stop{position:relative;display:block;min-width:0;height:44px;padding:0;border-radius:4px;text-decoration:none}.ds-stop:before{content:\"\";position:absolute;inset:13px 0 auto;height:18px;background:repeating-linear-gradient(90deg,#8d8a81 0 1px,transparent 1px 7px);opacity:.85}.ds-stop[aria-current]:before,.ds-stop:hover:before{background:repeating-linear-gradient(90deg,#c0bbae 0 1px,transparent 1px 7px);opacity:1}.ds-stop:after{content:attr(aria-label);position:absolute;left:50%;bottom:calc(100% + 16px);transform:translate(-50%,4px);padding:5px 10px;border-radius:6px;background:#302f2d;color:#ecebe6;font-size:11px;line-height:1.6;white-space:nowrap;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .12s,transform .12s}.ds-stop:hover:after,.ds-stop:focus-visible:after{opacity:1;visibility:visible;transform:translate(-50%,0)}.ds-stop:focus-visible{outline:1px solid #ffb4a9;outline-offset:2px}.ds-marker{position:absolute;left:30%;top:18px;width:4px;height:24px;border-radius:2px;background:#ff6b5e;pointer-events:none;z-index:2}@media(max-width:700px){.ds-track{width:calc(100% - 32px);padding:8px 12px;gap:10px}.ds-stop:before{left:4px;right:4px}}@media(prefers-reduced-motion:reduce){.ds-stop:after{transition:none}}@media(max-width:360px){.ds-track{padding-inline:10px;gap:8px}}",
+      "refersTo": "chapter-ruler"
+    },
+    {
+      "name": "Electron microscope viewfinder",
+      "kind": "custom",
+      "description": "Four instrument corners, a plain imaging readout, and an unnumbered scale-shaped mark accompany the pale electron-imaging state; no invented magnification or measurement appears.",
+      "html": "<div class=\"ds-scope\"><span class=\"ds-corner ds-corner-a\"></span><span class=\"ds-corner ds-corner-b\"></span><span class=\"ds-corner ds-corner-c\"></span><span class=\"ds-corner ds-corner-d\"></span><span class=\"ds-readout\">Electron microscopy</span><span class=\"ds-scale\" aria-hidden=\"true\"></span></div>",
+      "css": ".ds-scope{position:relative;width:100%;height:220px;background:#dfe4e1;color:#326856;font-family:var(--body,Wotfard),Arial,sans-serif}.ds-corner{position:absolute;width:22px;height:22px;border:1px solid currentColor}.ds-corner-a{top:12%;left:4%;border-right:0;border-bottom:0}.ds-corner-b{top:12%;right:4%;border-left:0;border-bottom:0}.ds-corner-c{bottom:13%;left:4%;border-right:0;border-top:0}.ds-corner-d{bottom:13%;right:4%;border-left:0;border-top:0}.ds-readout{position:absolute;bottom:calc(13% + 14px);left:calc(4% + 16px);font-size:10px;letter-spacing:.06em}.ds-scale{position:absolute;bottom:calc(13% + 18px);right:calc(4% + 18px);width:52px;height:7px;border:1px solid currentColor;border-top:0}"
+    },
+    {
+      "name": "Reading surface",
+      "kind": "custom",
+      "description": "Non-Contact reading cover with a solid core and feathered ground edges; only the background is masked, so text and controls remain fully opaque. The inherited ground follows the active theme.",
+      "html": "<article class=\"ds-reading\"><h2>[Project title]</h2><p>[Project summary]</p></article>",
+      "css": ".ds-reading{position:relative;isolation:isolate;max-width:420px;background:transparent;color:var(--paper,#ecebe6);font-family:var(--body,Wotfard),Arial,sans-serif}.ds-reading:before{--fade-x:120px;--fade-y:80px;content:\"\";display:block;position:absolute;inset:calc(-1 * var(--fade-y)) calc(-1 * var(--fade-x));z-index:-1;pointer-events:none;background:var(--ground,#1c1d1b);mask-image:linear-gradient(to right,transparent,#000 var(--fade-x),#000 calc(100% - var(--fade-x)),transparent),linear-gradient(to bottom,transparent,#000 var(--fade-y),#000 calc(100% - var(--fade-y)),transparent);mask-composite:intersect}.ds-reading h2{margin:0;font-family:var(--display,Graphik),Arial,sans-serif;font-size:clamp(40px,4.4vw,64px);font-weight:400;line-height:1.08;letter-spacing:-.035em}.ds-reading p{margin:25px 0 0;color:var(--muted,#b6b7af);font-size:17px;line-height:1.65;max-width:38ch}@media(max-width:700px){.ds-reading:before{--fade-x:32px;--fade-y:72px}.ds-reading h2{font-size:42px}.ds-reading p{font-size:16px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Unfolding Specimen",
+    "overview": "A dark technical specimen study carries the portfolio, with an explicit pale electron-microscopy state in Project 2. An opaque, low-poly copper-brown cell physically separates into two solid half-shells, holds its anatomical cut faces in view, then opens the way to sparse contours, faceted translucent organelles, and warm sand highlights. The user's Anime.js reference governs the choreography: the actual document scroll position advances the perspective camera, repeatedly separates and reconstructs selected structures, and docks the cell beneath an electron column before a smooth palette fade. The same specimen travels continuously across one permanent viewport-sized projection plane as the reading columns exchange sides. HTML reading surfaces keep a solid ground beneath the copy and feather that cover into the moving scene at every edge. Text and controls remain fully opaque.\n\nHTML carries the reading and interaction. The procedural scene supplies orientation and continuity; it does not replace project text, chapter navigation, or a readable detail panel. Personal details remain editable placeholders until the owner supplies them.",
+    "keyCharacteristics": [
+      "Charcoal, off-white text, sand actions, and copper annotations, with a pale silver-green electron-imaging exception in Project 2.",
+      "Local Graphik headings and Wotfard reading text.",
+      "Alternating reading columns with solid cores and feathered edges over one permanent projection plane with continuously traveling low-poly geometry.",
+      "A lower-right charcoal capsule provides chapter navigation through five separated tick groups and a coral position marker; category names appear on hover or keyboard focus.",
+      "Half-distance scrolling eases the real document position so copy, specimen, active category, and ruler stay aligned.",
+      "A closed exterior, held split cross-section, forward camera entry, organelle studies, and repeated reconstruction.",
+      "A tiny cell docks in a glass Petri dish in Project 2, holds before camera magnification, then enters monochrome imaging; Project 3 restores the warm palette.",
+      "Hairlines, specimen contours, and measured progress marks.",
+      "Closed, split, interior, and microscope diagrams preserve the journey in fallback and reduced motion."
+    ],
+    "rules": [
+      {
+        "name": "The Warm Signal Rule",
+        "body": "Sand and copper identify actions, selection, and specimen emphasis; preserve the quieter neutral reading field around them.",
+        "section": "colors"
+      },
+      {
+        "name": "The Electron Fade Rule",
+        "body": "Fade the page, solid reading cores and their feathered edges, text, lines, and panels together after microscope docking. Ease the specimen filter and viewfinder opacity with them, then fade back to the warm world for Project 3. Keep this exception tied to electron imaging and retain the capsule’s stable palette.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Layer Rule",
+        "body": "Keep narrative copy in HTML and reserve the scene's labels for orientation. Do not make the specimen the only route to information.",
+        "section": "typography"
+      },
+      {
+        "name": "The Specimen Depth Rule",
+        "body": "Use physical depth to reveal the cell and tonal separation to support reading; avoid assigning floating elevation to ordinary text groups.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Continuous Travel Rule",
+        "body": "Keep the projection plane fixed across every chapter. Move and ease the same specimen through world space, retain ambient drift during holds, and approach the tiny docked cell with the camera for magnification.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Cushioned Reveal Rule",
+        "body": "Enter and leave every authored hold with zero velocity and acceleration. Apply one ease to each physical stage from raw scroll progress. Clear the shell before unfolding the interior, pack the interior before closing the shell, and ease perspective magnification without compressing movement into a late burst.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Contained Closure Rule",
+        "body": "Pack every organelle and split internal structure inside the membrane before the half-shells close. Drive shell and interior assembly from the same scroll pose.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** preserve the warm charcoal world and its explicit electron-imaging palette exception across WebGL and fallback states.",
+      "**Do** keep project text and controls fully opaque over solid reading cores with feathered ground edges beside or below the continuously moving specimen.",
+      "**Do** keep the sole bottom capsule's five equal category targets synchronized with the actual document intervals and scene state.",
+      "**Do** preserve clear gaps between tick groups, accessible category names, visible keyboard focus, and names on hover or focus.",
+      "**Do** keep reading content and actions clear of the fixed capsule; reserve the microscope project’s mobile bottom padding and keep Academics copy on the left.",
+      "**Do** use broad faceted surfaces and simplified anatomical details for the cell.",
+      "**Do** use warm scene accents outside electron imaging and green within it; retain the capsule's coral marker and pale coral focus throughout.",
+      "**Do** hold the physical split long enough to read its cut faces before entering, and show the tiny cell held inside its Petri dish before changing the palette and approaching it with the camera.",
+      "**Do** keep scroll-derived content synchronized with the real document position, preserve visible keyboard focus, and bypass scroll easing for reduced motion.",
+      "**Do** use explicit editable placeholders for information the owner has not supplied."
+    ],
+    "donts": [
+      "**Don't** expose organelles or annotation lines in the initial closed exterior.",
+      "**Don't** reintroduce a top bar, duplicate identity, numeric navigation endpoints, or permanently visible capsule labels.",
+      "**Don't** replace the pinned cell-entry and reconstruction journey with an unrelated visual concept.",
+      "**Don't** add fabricated personal achievements, project images, or contact details.",
+      "**Don't** flatten the open reading layout into a grid of elevated cards.",
+      "**Don't** require 3D interaction to access portfolio content.",
+      "**Don't** add realistic mottled textures or allow the specimen and labels to underlay portfolio text."
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1c1d1b" />
+    <meta name="description" content="An editable biology portfolio: explore projects, experience, and academic work through an unfolding animal cell." />
+    <title>Cell — Portfolio template</title>
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to portfolio</a>
+    <div class="stage" aria-hidden="true">
+      <canvas id="cell-canvas"></canvas>
+      <svg class="static-cell" viewBox="0 0 700 650" fill="none">
+        <defs><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(28)"><path d="M0 0V12" stroke="currentColor" stroke-opacity=".2"/></pattern></defs>
+        <g id="cell-diagram"><path class="diagram-membrane" d="M565 119c96 102 108 277-2 385-103 102-290 97-391 4C63 407 70 220 162 122 261 18 461 10 565 119Z"/>
+        <path d="M551 131c89 96 102 258-1 360-97 96-271 90-366 2C83 400 90 228 176 135 268 38 454 28 551 131Z" opacity=".4"/>
+        <path class="diagram-nucleus" d="M411 207c57 40 76 130 26 184-49 51-144 55-191 2-47-53-31-139 21-177 41-30 102-36 144-9Z"/>
+        <path d="M411 207c57 40 76 130 26 184-49 51-144 55-191 2-47-53-31-139 21-177 41-30 102-36 144-9Z" fill="url(#hatch)"/>
+        <ellipse cx="350" cy="303" rx="38" ry="44" class="diagram-nucleolus"/>
+        <g class="diagram-mito"><path d="M452 119c54-29 106 7 78 45-25 35-120 35-117-3 1-17 18-32 39-42Z"/><path d="m438 146 18 13 6-27 18 23 10-25 17 18"/><path d="M169 317c30-41 69-37 72-6 5 44-43 112-68 94-23-17-24-60-4-88Z"/><path d="m176 332 28 2-24 19 26 4-23 22"/><path d="M413 473c39-31 101-19 106 9 8 40-85 68-112 32-10-13-8-28 6-41Z"/><path d="m427 491 14 17 10-24 14 20 12-24 14 15"/></g>
+        <g opacity=".65"><path d="M244 190c-32-28-64-10-55 27s-44 26-47 55m92-66c-27-20-30 7-23 27s-47 28-50 51m77-59c-12-8-9 22-5 34s-43 17-50 39M459 333c39-24 71-16 62 22s32 38 28 65m-79-71c23-13 34-9 29 15s26 40 25 57m-45-52c10-7-2 17 10 30s17 14 15 31"/></g>
+        <g fill="currentColor"><circle cx="298" cy="467" r="4"/><circle cx="279" cy="480" r="4"/><circle cx="305" cy="490" r="3"/><circle cx="262" cy="457" r="3"/><circle cx="548" cy="261" r="4"/><circle cx="563" cy="277" r="3"/><circle cx="529" cy="280" r="3"/></g></g>
+      </svg>
+      <svg class="static-split" viewBox="0 0 900 650" fill="none"><defs><clipPath id="left-cell"><path d="M0 0H350V650H0Z"/></clipPath><clipPath id="right-cell"><path d="M350 0H700V650H350Z"/></clipPath></defs><g transform="translate(10)"><g clip-path="url(#left-cell)"><use href="#cell-diagram"/></g><path d="M350 52V577"/></g><g transform="translate(190)"><g clip-path="url(#right-cell)"><use href="#cell-diagram"/></g><path d="M350 52V577"/></g></svg>
+      <svg class="microscope-fallback" viewBox="0 0 700 650" fill="none"><path d="M316 0v100l-46 48v24h160v-24l-46-48V0M270 172h160M342 172v270M240 470h220v16H240ZM170 458h400v12H170ZM310 486v70h80v-70M300 556h100"/><ellipse cx="350" cy="454" rx="110" ry="17"/><ellipse cx="350" cy="438" rx="94" ry="17"/><path d="M256 438v16M444 438v16"/></svg>
+      <div class="microscopy-view"><span class="scope-corner scope-corner-a"></span><span class="scope-corner scope-corner-b"></span><span class="scope-corner scope-corner-c"></span><span class="scope-corner scope-corner-d"></span><span class="microscopy-readout">Electron microscopy</span><span class="microscopy-scale" aria-hidden="true"></span></div>
+      <svg id="annotation-lines"><path id="primary-line"/><circle id="anchor-dot" r="3"/><path id="secondary-line"/></svg>
+      <div id="primary-annotation" class="annotation"><span class="annotation-mark"></span><span id="annotation-text">[Research interests]</span></div>
+      <div id="secondary-annotation" class="annotation annotation-secondary">Experience & activities</div>
+      <div class="scene-caption"><span class="crosshair" aria-hidden="true"></span><span id="scene-caption">Animal cell · overview</span></div>
+    </div>
+    <main id="main" tabindex="-1"></main>
+    <footer class="viewport-footer"><nav class="progress-track" aria-label="Portfolio chapters"><span id="progress-fill" aria-hidden="true"></span><a class="chapter-stop" href="#intro" data-chapter="intro" aria-label="Intro" aria-current="location"></a><a class="chapter-stop" href="#projects" data-chapter="projects" aria-label="Projects"></a><a class="chapter-stop" href="#experience" data-chapter="experience" aria-label="Experience"></a><a class="chapter-stop" href="#academics" data-chapter="academics" aria-label="Academics"></a><a class="chapter-stop" href="#contact" data-chapter="contact" aria-label="Contact"></a></nav></footer>
+    <dialog id="project-dialog" aria-labelledby="detail-title"><div class="dialog-top"><span>Project details</span><button id="close-detail" class="icon-button" aria-label="Close project details"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div><div id="detail-content"></div></dialog>
+    <noscript><style>.stage{opacity:.4}#cell-canvas,#annotation-lines,.annotation{display:none}.static-cell{display:block}.no-script{position:relative;z-index:4;max-width:680px;margin:160px auto;padding:32px;background:#1c1d1b}</style><div class="no-script"><h1>[Name]</h1><p>[Short introduction] · [Research interests]</p><h2>Selected projects</h2><p>[Project 01 title] — [Summary]</p><p>[Project 02 title] — [Summary]</p><p>[Project 03 title] — [Summary]</p><h2>Experience and activities</h2><p>[Organization or activity] · [Role] · [Dates] · [Contribution]</p><h2>Academics and honors</h2><p>[School] · [Graduation year] · [Coursework] · [Honor]</p><h2>Contact</h2><p>[Contact invitation] · [Email address]</p></div></noscript>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>

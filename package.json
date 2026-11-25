@@ -1,0 +1,14 @@
+{
+  "name": "kcamel-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5174",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5174",
+    "test": "node --test cell-portfolio/tests/*.test.js"
+  },
+  "dependencies": { "three": "0.145.0" },
+  "devDependencies": { "vite": "8.3.4" }
+}
